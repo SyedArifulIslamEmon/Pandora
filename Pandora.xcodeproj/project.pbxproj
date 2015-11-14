@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		194D5B921BF7387A003DC8E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194D5B841BF7387A003DC8E9 /* AppDelegate.swift */; };
+		194D5B931BF7387A003DC8E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194D5B851BF7387A003DC8E9 /* ViewController.swift */; };
+		194D5B941BF7387A003DC8E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194D5B8A1BF7387A003DC8E9 /* Assets.xcassets */; };
+		194D5B961BF7387A003DC8E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 194D5B8E1BF7387A003DC8E9 /* LaunchScreen.storyboard */; };
+		194D5B971BF7387A003DC8E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 194D5B8F1BF7387A003DC8E9 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		194D5B601BF73782003DC8E9 /* Pandora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pandora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		194D5B841BF7387A003DC8E9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		194D5B851BF7387A003DC8E9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		194D5B8A1BF7387A003DC8E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		194D5B8C1BF7387A003DC8E9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		194D5B8E1BF7387A003DC8E9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		194D5B8F1BF7387A003DC8E9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		194D5B5D1BF73782003DC8E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		194D5B571BF73782003DC8E9 = {
+			isa = PBXGroup;
+			children = (
+				194D5B621BF73782003DC8E9 /* Pandora */,
+				194D5B611BF73782003DC8E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		194D5B611BF73782003DC8E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				194D5B601BF73782003DC8E9 /* Pandora.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		194D5B621BF73782003DC8E9 /* Pandora */ = {
+			isa = PBXGroup;
+			children = (
+				194D5B831BF7387A003DC8E9 /* Controllers */,
+				194D5B861BF7387A003DC8E9 /* Extensions */,
+				194D5B871BF7387A003DC8E9 /* Models */,
+				194D5B881BF7387A003DC8E9 /* Protocols */,
+				194D5B891BF7387A003DC8E9 /* Resources */,
+				194D5B901BF7387A003DC8E9 /* ViewModels */,
+				194D5B911BF7387A003DC8E9 /* Views */,
+			);
+			path = Pandora;
+			sourceTree = "<group>";
+		};
+		194D5B831BF7387A003DC8E9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				194D5B841BF7387A003DC8E9 /* AppDelegate.swift */,
+				194D5B851BF7387A003DC8E9 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		194D5B861BF7387A003DC8E9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		194D5B871BF7387A003DC8E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		194D5B881BF7387A003DC8E9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		194D5B891BF7387A003DC8E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				194D5B8A1BF7387A003DC8E9 /* Assets.xcassets */,
+				194D5B8B1BF7387A003DC8E9 /* Other */,
+				194D5B8D1BF7387A003DC8E9 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		194D5B8B1BF7387A003DC8E9 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				194D5B8C1BF7387A003DC8E9 /* Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		194D5B8D1BF7387A003DC8E9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				194D5B8E1BF7387A003DC8E9 /* LaunchScreen.storyboard */,
+				194D5B8F1BF7387A003DC8E9 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		194D5B901BF7387A003DC8E9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		194D5B911BF7387A003DC8E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		194D5B5F1BF73782003DC8E9 /* Pandora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 194D5B721BF73782003DC8E9 /* Build configuration list for PBXNativeTarget "Pandora" */;
+			buildPhases = (
+				194D5B5C1BF73782003DC8E9 /* Sources */,
+				194D5B5D1BF73782003DC8E9 /* Frameworks */,
+				194D5B5E1BF73782003DC8E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pandora;
+			productName = Pandora;
+			productReference = 194D5B601BF73782003DC8E9 /* Pandora.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		194D5B581BF73782003DC8E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Niteco;
+				TargetAttributes = {
+					194D5B5F1BF73782003DC8E9 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 194D5B5B1BF73782003DC8E9 /* Build configuration list for PBXProject "Pandora" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 194D5B571BF73782003DC8E9;
+			productRefGroup = 194D5B611BF73782003DC8E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				194D5B5F1BF73782003DC8E9 /* Pandora */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		194D5B5E1BF73782003DC8E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194D5B961BF7387A003DC8E9 /* LaunchScreen.storyboard in Resources */,
+				194D5B941BF7387A003DC8E9 /* Assets.xcassets in Resources */,
+				194D5B971BF7387A003DC8E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		194D5B5C1BF73782003DC8E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194D5B931BF7387A003DC8E9 /* ViewController.swift in Sources */,
+				194D5B921BF7387A003DC8E9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		194D5B701BF73782003DC8E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		194D5B711BF73782003DC8E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		194D5B731BF73782003DC8E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Pandora/Resources/Other/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.niteco.Pandora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		194D5B741BF73782003DC8E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Pandora/Resources/Other/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.niteco.Pandora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		194D5B5B1BF73782003DC8E9 /* Build configuration list for PBXProject "Pandora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				194D5B701BF73782003DC8E9 /* Debug */,
+				194D5B711BF73782003DC8E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		194D5B721BF73782003DC8E9 /* Build configuration list for PBXNativeTarget "Pandora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				194D5B731BF73782003DC8E9 /* Debug */,
+				194D5B741BF73782003DC8E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 194D5B581BF73782003DC8E9 /* Project object */;
+}
